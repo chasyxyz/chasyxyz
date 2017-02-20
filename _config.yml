@@ -2,6 +2,9 @@
 title: Chasyxyz
 timezone: UTC
 collections:
+  '123':
+    title: '123'
+    output: true
   posts:
     title: Posts
     output: true
