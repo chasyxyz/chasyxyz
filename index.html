@@ -1,8 +1,20 @@
----
-title: Главная
-date: 2017-02-20 14:08:00 Z
----
+<!DOCTYPE html>
+<html>
 
-проверка
+  {% include head.html %}
 
-Однострелочники - разбираемся
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
